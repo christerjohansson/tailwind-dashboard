@@ -1,22 +1,22 @@
-# K-WD Dashboard
+# Tailwind Dashboard
 
-Fully responsive dashboard template built with tailwindcss & alpinejs
+Fully responsive Tailwind dashboard template with Tailwind CSS & Alpine.js
 
-[![GitHub license](https://img.shields.io/github/license/Kamona-WD/kwd-dashboard)](https://github.com/Kamona-WD/starter-dashboard-layout/blob/main/License.md)
-[![GitHub stars](https://img.shields.io/github/stars/Kamona-WD/kwd-dashboard)](https://github.com/Kamona-WD/kwd-dashboard/stargazers)
+[![GitHub license](https://img.shields.io/github/license/christerjohansson/tailwind-dashboard)](https://github.com/christerjohansson/starter-dashboard-layout/blob/main/License.md)
+[![GitHub size](https://img.shields.io/github/languages/code-size/christerjohansson/tailwind-dashboard?style=for-the-badge)](https://img.shields.io/github/languages/code-size/christerjohansson/tailwind-dashboard?style=for-the-badge)
 
-#### Check this [branch](https://github.com/Kamona-WD/kwd-dashboard/tree/rewrite).
+#### Check this [branch](https://github.com/christerjohansson/tailwind-dashboard/tree/rewrite).
 
-## [See live](https://kamona-wd.github.io/kwd-dashboard/)
+## [See live](https://christerjohansson.github.io/tailwind-dashboard/)
 
 To get started:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Kamona-WD/kwd-dashboard.git
+   git clone https://github.com/christerjohansson/tailwind-dashboard.git
 
-   cd kwd-dashboard
+   cd tailwind-dashboard
    ```
 
 2. Install the dependencies:
@@ -56,13 +56,4 @@ yarn prod
 ```
 
 After that's done, check out `./public/build/css/tailwind.css` to see the optimized output.
-
-
----
-
-## Support
-
-<a href="https://www.buymeacoffee.com/ahmedkamel" target="_blank" style="display: inline-block !important;"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-Be careful and donate just if it is within your possibilities, because there is no refund system. And remember that you don't need to donate, it is just a free choice for you. Thank you!
 

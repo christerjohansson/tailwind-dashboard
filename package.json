@@ -1,7 +1,7 @@
 {
-  "name": "kwd-dashboard",
-  "version": "0.0.1",
-  "description": "Responsive dashboard built with tailwindcss alpinejs",
+  "name": "tailwind-dashboard",
+  "version": "1.0.0",
+  "description": "Responsive dashboard developed with Tailwind CSS Alpine.js",
   "scripts": {
     "serve": "run-p css:watch html:serve",
     "prod": "run-s css:build",
@@ -20,7 +20,7 @@
     "template"
   ],
   "author": {
-    "name": "Ahmed Kamel",
+    "name": "Christer Johansson",
     "email": "ak3849909@gmail.com",
     "url": "https://github.com/Kamona-WD"
   },

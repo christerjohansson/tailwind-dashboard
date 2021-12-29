@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>K-WD Dashboard | Mini Column Sidebar</title>
+    <title>Tailwind Dashboard | Mini Column Sidebar</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
       rel="stylesheet"
@@ -23,7 +23,18 @@
         <!-- Loading screen -->
         <div
           x-ref="loading"
-          class="fixed inset-0 z-50 flex items-center justify-center text-2xl font-semibold text-white bg-primary-darker"
+          class="
+            fixed
+            inset-0
+            z-50
+            flex
+            items-center
+            justify-center
+            text-2xl
+            font-semibold
+            text-white
+            bg-primary-darker
+          "
         >
           Loading.....
         </div>
@@ -49,7 +60,17 @@
           x-ref="sidebar"
           @keydown.escape="window.innerWidth <= 768 ? isSidebarOpen = false : ''"
           tabindex="-1"
-          class="fixed inset-y-0 z-10 flex flex-shrink-0 bg-white border-r md:static dark:border-primary-darker dark:bg-darker focus:outline-none"
+          class="
+            fixed
+            inset-y-0
+            z-10
+            flex flex-shrink-0
+            bg-white
+            border-r
+            md:static
+            dark:border-primary-darker dark:bg-darker
+            focus:outline-none
+          "
         >
           <!-- Mini column -->
           <nav class="flex flex-col flex-shrink-0 h-full px-2 py-4 border-r dark:border-primary-darker">
@@ -59,7 +80,7 @@
                 href="../index.html"
                 class="inline-block text-xl font-bold tracking-wider uppercase text-primary-dark dark:text-light"
               >
-                K-WD
+                Tailwind
               </a>
             </div>
             <div class="flex flex-col items-center justify-center flex-1 space-y-4">
@@ -68,7 +89,19 @@
               <!-- inActive classes "bg-primary-50 text-primary-lighter" -->
               <a
                 href="#"
-                class="p-2 text-white transition-colors duration-200 rounded-full bg-primary hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
+                class="
+                  p-2
+                  text-white
+                  transition-colors
+                  duration-200
+                  rounded-full
+                  bg-primary
+                  hover:text-primary hover:bg-primary-100
+                  dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                  focus:outline-none focus:bg-primary-100
+                  dark:focus:bg-primary-dark
+                  focus:ring-primary-darker
+                "
               >
                 <span class="sr-only">Home</span>
                 <svg
@@ -91,7 +124,19 @@
               <!-- inActive classes "bg-primary-50 text-primary-lighter" -->
               <a
                 href="#"
-                class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
+                class="
+                  p-2
+                  transition-colors
+                  duration-200
+                  rounded-full
+                  text-primary-lighter
+                  bg-primary-50
+                  hover:text-primary hover:bg-primary-100
+                  dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                  focus:outline-none focus:bg-primary-100
+                  dark:focus:bg-primary-dark
+                  focus:ring-primary-darker
+                "
               >
                 <span class="sr-only">Messages</span>
                 <svg
@@ -114,7 +159,19 @@
               <!-- inActive classes "bg-primary-50 text-primary-lighter" -->
               <a
                 href="#"
-                class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
+                class="
+                  p-2
+                  transition-colors
+                  duration-200
+                  rounded-full
+                  text-primary-lighter
+                  bg-primary-50
+                  hover:text-primary hover:bg-primary-100
+                  dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                  focus:outline-none focus:bg-primary-100
+                  dark:focus:bg-primary-dark
+                  focus:ring-primary-darker
+                "
               >
                 <span class="sr-only">Another Link</span>
                 <svg
@@ -137,7 +194,19 @@
               <!-- inActive classes "bg-primary-50 text-primary-lighter" -->
               <a
                 href="#"
-                class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
+                class="
+                  p-2
+                  transition-colors
+                  duration-200
+                  rounded-full
+                  text-primary-lighter
+                  bg-primary-50
+                  hover:text-primary hover:bg-primary-100
+                  dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                  focus:outline-none focus:bg-primary-100
+                  dark:focus:bg-primary-dark
+                  focus:ring-primary-darker
+                "
               >
                 <span class="sr-only">Users</span>
                 <svg
@@ -161,7 +230,19 @@
             <form @submit="$event.preventDefault()" action="#" class="flex items-center justify-center flex-shrink-0">
               <!-- Logout button -->
               <button
-                class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
+                class="
+                  p-2
+                  transition-colors
+                  duration-200
+                  rounded-full
+                  text-primary-lighter
+                  bg-primary-50
+                  hover:text-primary hover:bg-primary-100
+                  dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                  focus:outline-none focus:bg-primary-100
+                  dark:focus:bg-primary-dark
+                  focus:ring-primary-darker
+                "
               >
                 <span class="sr-only">Logout</span>
                 <svg
@@ -191,7 +272,18 @@
                 <!-- Sidebar button -->
                 <button
                   @click="isSidebarOpen = true; $nextTick(() => { $refs.sidebar.focus() })"
-                  class="p-1 transition-colors duration-200 rounded-md text-primary-lighter bg-primary-50 md:hidden hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:ring"
+                  class="
+                    p-1
+                    transition-colors
+                    duration-200
+                    rounded-md
+                    text-primary-lighter
+                    bg-primary-50
+                    md:hidden
+                    hover:text-primary hover:bg-primary-100
+                    dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                    focus:outline-none focus:ring
+                  "
                 >
                   <span class="sr-only">Open main manu</span>
                   <span aria-hidden="true">
@@ -231,7 +323,22 @@
                     class="w-12 h-6 transition rounded-full outline-none bg-primary-100 dark:bg-primary-lighter"
                   ></div>
                   <div
-                    class="absolute top-0 left-0 inline-flex items-center justify-center w-6 h-6 transition-all duration-150 transform scale-110 rounded-full shadow-sm"
+                    class="
+                      absolute
+                      top-0
+                      left-0
+                      inline-flex
+                      items-center
+                      justify-center
+                      w-6
+                      h-6
+                      transition-all
+                      duration-150
+                      transform
+                      scale-110
+                      rounded-full
+                      shadow-sm
+                    "
                     :class="{ 'translate-x-0 -translate-y-px  bg-white text-primary-dark': !isDark, 'translate-x-6 text-primary-100 bg-primary-darker': isDark }"
                   >
                     <svg
@@ -269,7 +376,17 @@
                 <!-- Search panel button -->
                 <button
                   @click="openSearchPanel"
-                  class="p-1 transition-colors duration-200 rounded-md text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:ring"
+                  class="
+                    p-1
+                    transition-colors
+                    duration-200
+                    rounded-md
+                    text-primary-lighter
+                    bg-primary-50
+                    hover:text-primary hover:bg-primary-100
+                    dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                    focus:outline-none focus:ring
+                  "
                 >
                   <span class="sr-only">Open search panel</span>
                   <span aria-hidden="true">
@@ -293,7 +410,18 @@
                 <!-- User panel button -->
                 <button
                   @click="openUserPanel"
-                  class="p-1 transition-colors duration-200 rounded-md text-primary-lighter bg-primary-50 xl:hidden hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:ring"
+                  class="
+                    p-1
+                    transition-colors
+                    duration-200
+                    rounded-md
+                    text-primary-lighter
+                    bg-primary-50
+                    xl:hidden
+                    hover:text-primary hover:bg-primary-100
+                    dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                    focus:outline-none focus:ring
+                  "
                 >
                   <span class="sr-only">Open user panel</span>
                   <span aria-hidden="true">
@@ -342,7 +470,21 @@
             @keydown.escape="window.innerWidth <= 1024 ? isUserPanelOpen = false : ''"
             tabindex="-1"
             x-ref="userPanel"
-            class="fixed inset-y-0 top-0 right-0 z-10 flex-shrink-0 bg-white xl:z-0 xl:sticky w-80 dark:bg-darker dark:text-light xl:border-l dark:border-primary-darker focus:outline-none"
+            class="
+              fixed
+              inset-y-0
+              top-0
+              right-0
+              z-10
+              flex-shrink-0
+              bg-white
+              xl:z-0 xl:sticky
+              w-80
+              dark:bg-darker dark:text-light
+              xl:border-l
+              dark:border-primary-darker
+              focus:outline-none
+            "
           >
             <h2 class="sr-only">User panel</h2>
             <!-- Close button -->
@@ -368,7 +510,19 @@
                 <!-- Settings button -->
                 <button
                   @click="openSettingsPanel"
-                  class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
+                  class="
+                    p-2
+                    transition-colors
+                    duration-200
+                    rounded-full
+                    text-primary-lighter
+                    bg-primary-50
+                    hover:text-primary hover:bg-primary-100
+                    dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark
+                    focus:outline-none focus:bg-primary-100
+                    dark:focus:bg-primary-dark
+                    focus:ring-primary-darker
+                  "
                 >
                   <span class="sr-only">Open settings panel</span>
                   <svg
@@ -402,9 +556,9 @@
                   <img
                     class="w-20 h-20 rounded-full dark:opacity-70"
                     src="../build/images/avatar.jpg"
-                    alt="Ahmed Kamel"
+                    alt="Christer Johansson"
                   />
-                  <h2 class="text-xl font-medium text-gray-600 dark:text-light">Ahmed Kamel</h2>
+                  <h2 class="text-xl font-medium text-gray-600 dark:text-light">Christer Johansson</h2>
                 </div>
                 <div class="space-y-6">
                   <div class="flex items-center justify-between">
@@ -421,7 +575,14 @@
                       />
                       <div class="overflow-hidden">
                         <h4
-                          class="font-semibold text-gray-400 transition-colors dark:text-primary-dark group-hover:text-gray-900 dark:group-hover:text-primary-lighter"
+                          class="
+                            font-semibold
+                            text-gray-400
+                            transition-colors
+                            dark:text-primary-dark
+                            group-hover:text-gray-900
+                            dark:group-hover:text-primary-lighter
+                          "
                         >
                           John Doe
                         </h4>
@@ -440,7 +601,14 @@
                       />
                       <div class="overflow-hidden">
                         <h4
-                          class="font-semibold text-gray-400 transition-colors dark:text-primary-dark group-hover:text-gray-900 dark:group-hover:text-primary-lighter"
+                          class="
+                            font-semibold
+                            text-gray-400
+                            transition-colors
+                            dark:text-primary-dark
+                            group-hover:text-gray-900
+                            dark:group-hover:text-primary-lighter
+                          "
                         >
                           Someone
                         </h4>
@@ -459,7 +627,14 @@
                       />
                       <div class="overflow-hidden">
                         <h4
-                          class="font-semibold text-gray-400 transition-colors dark:text-primary-dark group-hover:text-gray-900 dark:group-hover:text-primary-lighter"
+                          class="
+                            font-semibold
+                            text-gray-400
+                            transition-colors
+                            dark:text-primary-dark
+                            group-hover:text-gray-900
+                            dark:group-hover:text-primary-lighter
+                          "
                         >
                           Another Person
                         </h4>
@@ -478,7 +653,14 @@
                       />
                       <div class="overflow-hidden">
                         <h4
-                          class="font-semibold text-gray-400 transition-colors dark:text-primary-dark group-hover:text-gray-900 dark:group-hover:text-primary-lighter"
+                          class="
+                            font-semibold
+                            text-gray-400
+                            transition-colors
+                            dark:text-primary-dark
+                            group-hover:text-gray-900
+                            dark:group-hover:text-primary-lighter
+                          "
                         >
                           Another Name
                         </h4>
@@ -509,7 +691,7 @@
                 <div class="text-sm">
                   Made by
                   <a href="https://github.com/Kamona-WD" target="_blank" class="text-blue-500 hover:underline">
-                    Ahmed Kamel
+                    Christer Johansson
                   </a>
                 </div>
               </footer>
@@ -546,7 +728,19 @@
           tabindex="-1"
           x-show="isSettingsPanelOpen"
           @keydown.escape="isSettingsPanelOpen = false"
-          class="fixed inset-y-0 right-0 z-20 w-full max-w-xs bg-white shadow-xl dark:bg-darker dark:text-light sm:max-w-md focus:outline-none"
+          class="
+            fixed
+            inset-y-0
+            right-0
+            z-20
+            w-full
+            max-w-xs
+            bg-white
+            shadow-xl
+            dark:bg-darker dark:text-light
+            sm:max-w-md
+            focus:outline-none
+          "
           aria-labelledby="settinsPanelLabel"
         >
           <div class="absolute left-0 p-2 transform -translate-x-full">
@@ -570,7 +764,17 @@
           <div class="flex flex-col h-screen">
             <!-- Panel header -->
             <div
-              class="flex flex-col items-center justify-center flex-shrink-0 px-4 py-8 space-y-4 border-b dark:border-primary-dark"
+              class="
+                flex flex-col
+                items-center
+                justify-center
+                flex-shrink-0
+                px-4
+                py-8
+                space-y-4
+                border-b
+                dark:border-primary-dark
+              "
             >
               <span aria-hidden="true" class="text-gray-500 dark:text-primary">
                 <svg
@@ -599,7 +803,21 @@
                   <!-- Light button -->
                   <button
                     @click="setLightTheme"
-                    class="flex items-center justify-center px-4 py-2 space-x-4 transition-colors border rounded-md hover:text-gray-900 hover:border-gray-900 dark:border-primary dark:hover:text-primary-100 dark:hover:border-primary-light focus:outline-none focus:ring focus:ring-primary-lighter focus:ring-offset-2 dark:focus:ring-offset-dark dark:focus:ring-primary-dark"
+                    class="
+                      flex
+                      items-center
+                      justify-center
+                      px-4
+                      py-2
+                      space-x-4
+                      transition-colors
+                      border
+                      rounded-md
+                      hover:text-gray-900 hover:border-gray-900
+                      dark:border-primary dark:hover:text-primary-100 dark:hover:border-primary-light
+                      focus:outline-none focus:ring focus:ring-primary-lighter focus:ring-offset-2
+                      dark:focus:ring-offset-dark dark:focus:ring-primary-dark
+                    "
                     :class="{ 'border-gray-900 text-gray-900 dark:border-primary-light dark:text-primary-100': !isDark, 'text-gray-500 dark:text-primary-light': isDark }"
                   >
                     <span>
@@ -624,7 +842,21 @@
                   <!-- Dark button -->
                   <button
                     @click="setDarkTheme"
-                    class="flex items-center justify-center px-4 py-2 space-x-4 transition-colors border rounded-md hover:text-gray-900 hover:border-gray-900 dark:border-primary dark:hover:text-primary-100 dark:hover:border-primary-light focus:outline-none focus:ring focus:ring-primary-lighter focus:ring-offset-2 dark:focus:ring-offset-dark dark:focus:ring-primary-dark"
+                    class="
+                      flex
+                      items-center
+                      justify-center
+                      px-4
+                      py-2
+                      space-x-4
+                      transition-colors
+                      border
+                      rounded-md
+                      hover:text-gray-900 hover:border-gray-900
+                      dark:border-primary dark:hover:text-primary-100 dark:hover:border-primary-light
+                      focus:outline-none focus:ring focus:ring-primary-lighter focus:ring-offset-2
+                      dark:focus:ring-offset-dark dark:focus:ring-primary-dark
+                    "
                     :class="{ 'border-gray-900 text-gray-900 dark:border-primary-light dark:text-primary-100': isDark, 'text-gray-500 dark:text-primary-light': !isDark }"
                   >
                     <span>
@@ -713,7 +945,18 @@
           x-transition:leave-end="-translate-x-full"
           x-show="isSearchPanelOpen"
           @keydown.escape="isSearchPanelOpen = false"
-          class="fixed inset-y-0 z-20 w-full max-w-xs bg-white shadow-xl dark:bg-darker dark:text-light sm:max-w-md focus:outline-none"
+          class="
+            fixed
+            inset-y-0
+            z-20
+            w-full
+            max-w-xs
+            bg-white
+            shadow-xl
+            dark:bg-darker dark:text-light
+            sm:max-w-md
+            focus:outline-none
+          "
         >
           <div class="absolute right-0 p-2 transform translate-x-full">
             <!-- Close button -->
@@ -735,7 +978,16 @@
           <div class="flex flex-col h-screen">
             <!-- Panel header (Search input) -->
             <div
-              class="relative flex-shrink-0 px-4 py-8 text-gray-400 border-b dark:border-primary-darker dark:focus-within:text-light focus-within:text-gray-700"
+              class="
+                relative
+                flex-shrink-0
+                px-4
+                py-8
+                text-gray-400
+                border-b
+                dark:border-primary-darker dark:focus-within:text-light
+                focus-within:text-gray-700
+              "
             >
               <span class="absolute inset-y-0 inline-flex items-center px-4">
                 <svg
@@ -756,7 +1008,16 @@
               <input
                 x-ref="searchInput"
                 type="text"
-                class="w-full py-2 pl-10 pr-4 border rounded-full dark:bg-dark dark:border-transparent dark:text-light focus:outline-none focus:ring"
+                class="
+                  w-full
+                  py-2
+                  pl-10
+                  pr-4
+                  border
+                  rounded-full
+                  dark:bg-dark dark:border-transparent dark:text-light
+                  focus:outline-none focus:ring
+                "
                 placeholder="Search..."
               />
             </div>
