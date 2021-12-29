@@ -10,6 +10,9 @@ Fully responsive Tailwind dashboard template with Tailwind CSS & Alpine.js
 
 ## [See live](https://christerjohansson.github.io/tailwind-dashboard/)
 
+## Screenshot
+![Screenshot of the application](public/build/images/screenshot.png "The screenshot")
+
 To get started:
 
 1. Clone the repository:
