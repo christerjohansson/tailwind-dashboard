@@ -2,8 +2,9 @@
 
 Fully responsive Tailwind dashboard template with Tailwind CSS & Alpine.js
 
-[![GitHub license](https://img.shields.io/github/license/christerjohansson/tailwind-dashboard)](https://github.com/christerjohansson/starter-dashboard-layout/blob/main/License.md)
+[![GitHub license](https://img.shields.io/github/license/christerjohansson/tailwind-dashboard?style=for-the-badge)](https://github.com/christerjohansson/starter-dashboard-layout/blob/main/License.md)
 [![GitHub size](https://img.shields.io/github/languages/code-size/christerjohansson/tailwind-dashboard?style=for-the-badge)](https://img.shields.io/github/languages/code-size/christerjohansson/tailwind-dashboard?style=for-the-badge)
+[![Github Release](https://img.shields.io/github/release-date/christerjohansson/tailwind-dashboard?style=for-the-badge)](https://img.shields.io/github/release-date/christerjohansson/tailwind-dashboard?style=for-the-badge)
 
 #### Check this [branch](https://github.com/christerjohansson/tailwind-dashboard/tree/rewrite).
 
